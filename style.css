@@ -1,0 +1,12 @@
+body{
+    background: #000;
+    position: absolute;
+}
+
+.eye{
+    border-radius: 40px;
+    background-color: #eee;
+    position: relative;
+    height: 500px;
+    width: 200px;
+}

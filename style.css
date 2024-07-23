@@ -6,15 +6,18 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: black;
+    gap: 100px;
 }
 
-h1{
+h1 {
     color: aliceblue;
 }
+
 .parent {
     display: flex;
     gap: 20px;
@@ -43,26 +46,24 @@ h1{
 
     animation-name: square;
     animation-duration: 2s;
-    animation-timing-function: linear ;
+    animation-timing-function: linear;
     animation-delay: 1s;
     animation-iteration-count: infinite;
-    animation-direction:normal;
+    animation-direction: normal;
     animation-fill-mode: both;
 }
 
-
-
 @keyframes square {
-    0%{
+    0% {
         translate: 0 0;
     }
-    50%{
+    50% {
         translate: 20px 0;
     }
-    75%{
-        translate: 0px 0px;
+    75% {
+        translate: 0 0;
     }
-    100%{
+    100% {
         translate: -20px 0;
     }
 }
